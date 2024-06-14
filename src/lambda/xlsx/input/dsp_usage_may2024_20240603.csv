@@ -1,0 +1,355 @@
+rowNumber,Seat: Name,Org: Name,Advertiser: Name,Campaign: Name,Impressions,Internal Expense,Expense
+1,ACS Gaming,ACS,Affinity,Colt Ford,65,$0.02 ,$0.02 
+2,ACS Gaming,ACS,Affinity,Geraldo Ortiz,146474,$359.34 ,$449.13 
+3,ACS Gaming,ACS,Affinity,Los Inquietos Del Norte,260665,$640.20 ,$800.17 
+4,ACS Gaming,ACS,Affinity,LS - Raelynn,58392,$134.27 ,$167.81 
+5,ACS Gaming,ACS,Affinity,Morris Day and The Time,201787,$462.91 ,$578.56 
+6,ACS Gaming,ACS,Affinity,MT - ETG,568576,"$1,239.34 ","$1,548.98 "
+7,ACS Gaming,ACS,Affinity,PV - Blues Traveler,1855,$4.70 ,$5.87 
+8,ACS Gaming,ACS,Affinity,PV - Brian McKnight,93693,$234.61 ,$293.22 
+9,ACS Gaming,ACS,Affinity,PV - Gas/Concert Ticket $30 get $10 FP,11290,$32.94 ,$41.17 
+10,ACS Gaming,ACS,Affinity,PV - George Thorogood,122628,$354.42 ,$442.98 
+11,ACS Gaming,ACS,Affinity,PV - Gladys Knight,10,$0.00 ,$0.00 
+12,ACS Gaming,ACS,Affinity,S7 - Hotel,109873,$616.94 ,$771.15 
+13,ACS Gaming,ACS,Affinity,S7 - Late Night Specials,70,$0.01 ,$0.01 
+14,ACS Gaming,ACS,Affinity,S7 - Late Night Specials Restart,279474,$640.33 ,$800.32 
+15,ACS Gaming,ACS,Affinity,S7 - Spend $30 Get $10,17471,$42.51 ,$53.13 
+16,ACS Gaming,ACS,Affinity,The Bob & Tom Comedy Show,113629,$284.58 ,$355.69 
+17,ACS Gaming,ACS,Affinity,Thompson Square,5605,$12.62 ,$15.77 
+18,ACS Gaming,ACS,Affinity,Three Dog Night,2,$0.00 ,$0.00 
+19,ACS Gaming,ACS,AguaCaliente,100000 Multiply Your Money,522235,"$1,200.22 ","$1,500.09 "
+20,ACS Gaming,ACS,AguaCaliente,HitTheDirt,155,$0.12 ,$0.14 
+21,ACS Gaming,ACS,AguaCaliente,IndyCar,98,$0.08 ,$0.10 
+22,ACS Gaming,ACS,AguaCaliente,Keys 2 Kash,100,$0.09 ,$0.12 
+23,ACS Gaming,ACS,AguaCaliente,Queenryche,3,$0.00 ,$0.00 
+24,ACS Gaming,ACS,AguaCaliente,silversun,266107,$771.77 ,$964.63 
+25,ACS Gaming,ACS,BlackOak,1000 Free Play Two Night Contest,7,$0.01 ,$0.01 
+26,ACS Gaming,ACS,BlackOak,125 25 25,295,$0.14 ,$0.18 
+27,ACS Gaming,ACS,BlackOak,Chef Ryan Scott,127,$0.08 ,$0.10 
+28,ACS Gaming,ACS,BlackOak,Cinco De Mayo,86711,$211.45 ,$264.29 
+29,ACS Gaming,ACS,BlackOak,Drone Show,192908,$477.19 ,$596.43 
+30,ACS Gaming,ACS,BRC,BearRiver_CoolerCoast,1014058,"$2,213.83 ","$2,766.97 "
+31,ACS Gaming,ACS,CasinoDelSol,CDS_CasualEntertainment,0,$0.00 ,$0.00 
+32,ACS Gaming,ACS,CasinoDelSol,CDS_PhoenixConquest,1189997,"$4,607.93 ","$5,759.59 "
+33,ACS Gaming,ACS,CCCR,NoRisk,0,$0.00 ,$0.00 
+34,ACS Gaming,ACS,Princess,Princess NorthEast_May2024,804922,"$2,604.74 ","$3,255.69 "
+35,ACS Gaming,ACS,Princess,Princess NorthEast_Re-Run,164,$0.15 ,$0.19 
+36,ACS Gaming,ACS,Princess,Princess_BayAreaCampaign,205,$0.10 ,$0.12 
+37,ACS Gaming,ACS,Princess,Princess_BayAreaCampaign_May,990159,"$2,400.51 ","$3,000.33 "
+38,ACS Gaming,ACS,Princess,Princess_Florida,62,$0.02 ,$0.03 
+39,ACS Gaming,ACS,Princess,Princess_Florida_May,1125986,"$3,200.69 ","$4,000.49 "
+40,ACS Gaming,ACS,Princess,Princess_SoCal,49,$0.09 ,$0.11 
+41,ACS Gaming,ACS,Princess,Princess_SoCal_May2024,926868,"$2,400.50 ","$3,000.32 "
+42,Alpha Media,Alpha Media,Albany Engineered Composites,AEC - May - June 24,31132,$27.08 ,$67.71 
+43,Alpha Media,Alpha Media,American Royal Rodeo,American Royal Rodeo,12983,$14.11 ,$22.76 
+44,Alpha Media,Alpha Media,Bellatox Boutique,Bellatox Boutique,126168,$113.57 ,$262.38 
+45,Alpha Media,Alpha Media,Boyers Boot and Shoe,Boyer Boot and Shoe - Timberland,62450,$59.43 ,$122.96 
+46,Alpha Media,Alpha Media,Farmington Regional Chamber of Commerce/Country Days,Farmington Regional Chamber of Commerce/Country Days,47147,$40.08 ,$91.07 
+47,Alpha Media,Alpha Media,Geneva Chamber of Commerce,Swedish Days 2024,15364,$18.16 ,$45.41 
+48,Alpha Media,Alpha Media,Gilby's Marine,Gilby's Marine: Jun - July 24,2674,$2.93 ,$5.23 
+49,Alpha Media,Alpha Media,IBEW 150,IBEW 150 - Contractor,34754,$29.24 ,$69.42 
+50,Alpha Media,Alpha Media,Lockport Chamber of Commerce,LCoC - Old Canal Days,57251,$48.58 ,$121.43 
+51,Alpha Media,Alpha Media,Prairie Repertory Theatre,Prairie Rep Theatre 2024,15478,$11.37 ,$27.89 
+52,Alpha Media,Alpha Media,Village of Orland Park,Village of Orland Park Concert Series June 8,54352,$46.82 ,$110.46 
+53,Alpha Media,Alpha Media,Water Rampage,Water Rampage,94246,$86.40 ,$174.65 
+54,Alpha Media,Alpha Media,Will County Habitat for Humanity,Will County H4H - Beer and Bourbon Fest,37173,$32.86 ,$71.35 
+55,Alvarez Advertising,Alvarez Advertising,Crooked River Roundup,Crooked River Roundup,7163,$7.15 ,$23.83 
+56,Alvarez Advertising,Alvarez Advertising,UB40 Tour,UB40 Tour,9881,$7.98 ,$26.58 
+57,Azira,Azira,Elkhart,Elkhart 2024,172349,$269.48 ,$309.66 
+58,Azira,Azira,L37 Insights,Concert Box Seats Campaign,15,$0.01 ,$0.01 
+59,Azira,Azira,Miles Partnership,Visit Greenville Helms Briscoe,119016,$148.38 ,$170.50 
+60,Azira,Azira,Mission2Market,Logan County,65356,$958.32 ,"$1,101.49 "
+61,Azira,Azira,Mission2Market,Morgan County,207815,$696.53 ,$800.50 
+62,Azira,Azira,Mission2Market,Opera House - Visit Leadville,66276,$88.21 ,$101.35 
+63,Azira,Azira,Mission2Market,Visit Leadville,195781,"$1,704.51 ","$1,959.12 "
+64,Azira,Azira,Natural Grocers,Natural Grocers December 2023,3,$0.00 ,$0.00 
+65,Azira,Azira,Natural Grocers,NG April 2024,112,$0.07 ,$0.08 
+66,Azira,Azira,Natural Grocers,NG February 2024,20,$0.02 ,$0.02 
+67,Azira,Azira,Natural Grocers,NG March 2024,400,$0.50 ,$0.57 
+68,Azira,Azira,Natural Grocers,NG May 2024,6067549,"$13,446.27 ","$15,451.34 "
+69,Azira,Azira,Rightside Design Group,Manistee Spring,1247244,"$4,750.97 ","$5,460.28 "
+70,Azira,Azira,Rightside Design Group,Manistee Winter 2024- Into Summer,184,$0.11 ,$0.13 
+71,Azira,Azira,Rightside Design Group,Oscoda 2024,235594,$846.18 ,$972.50 
+72,Azira,Azira,Saunders Hotel Group,Cambria Spring 2024,169600,$210.62 ,$242.01 
+73,Azira,Azira,Saunders Hotel Group,The Lenox Spring 2024,258048,$316.86 ,$364.08 
+74,Azira,Azira,Sensis Agency,POLA Cargo 2024,270,$0.17 ,$0.20 
+75,Azira,Azira,Sensis Agency,POLA CARGO 2024 AG,431223,"$1,054.37 ","$1,211.71 "
+76,Azira,Azira,Sensis Agency,UT Health Fentanyl 2024,1083360,"$1,908.86 ","$2,193.55 "
+77,Azira,Azira,Sportsman's Warehouse,Sportsman's Warehouse May 2024,839004,$928.55 ,"$1,066.85 "
+78,Azira,Azira,The Fresh Market,The Fresh Market - April 2024,524,$0.16 ,$0.18 
+79,Azira,Azira,The Fresh Market,The Fresh Market - February 2024,407,$0.22 ,$0.26 
+80,Azira,Azira,The Fresh Market,The Fresh Market - January 2024,3,$0.00 ,$0.00 
+81,Azira,Azira,The Fresh Market,The Fresh Market - March 2024,2290,$1.13 ,$1.30 
+82,Azira,Azira,The Fresh Market,The Fresh Market - May 2024,4014519,"$6,223.89 ","$7,151.96 "
+83,Bridgetree,BridgeTree,Advantage Inc,Advantage - American Crossroads,77724,$524.56 ,$655.70 
+84,Bridgetree,BridgeTree,Advantage Inc,CD1 America Leads Action,544613,"$3,515.60 ","$4,394.50 "
+85,Bridgetree,BridgeTree,Advantage Inc,HD - RSLC,337398,"$2,031.42 ","$2,539.27 "
+86,Bridgetree,BridgeTree,Hearing Life,Hearing Life Digital April,113,$0.01 ,$0.01 
+87,Bridgetree,BridgeTree,Hearing Life,Hearing Life Digital Cruisers,74595,$264.56 ,$330.69 
+88,Bridgetree,BridgeTree,Hearing Life,Hearing Life Digital March,300,$0.07 ,$0.09 
+89,Bridgetree,BridgeTree,Victra,MD - Baltimore Reisterstown - TBV,119975,$480.90 ,$601.12 
+90,Bridgetree,BridgeTree,Victra,MD - Nottingham - TBV,120390,$477.10 ,$596.37 
+91,Bridgetree,BridgeTree,Victra,MI - Taylor - TBV,120828,$477.79 ,$597.23 
+92,Bridgetree,BridgeTree,Victra,MI - Waterford - TBV,120886,$479.57 ,$599.46 
+93,Bridgetree,BridgeTree,Victra,PA - Philadelphia Lancaster - TBV,119545,$475.43 ,$594.28 
+94,Bridgetree,BridgeTree,Victra,PA - Philadelphia Rising - TBV,120612,$483.66 ,$604.57 
+95,Bridgetree,BridgeTree,Victra,TX - Grand Prairie - TBV,120606,$481.57 ,$601.96 
+96,Bridgetree,BridgeTree,Victra,TX - Richland Hills - TBV,120270,$474.68 ,$593.34 
+97,Bridgetree,BridgeTree,Victra,TX - San Antonio Potranco - TBV,120604,$476.73 ,$595.91 
+98,Bridgetree,BridgeTree,Victra,TX - San Antonio Walzem - TBV,120095,$474.96 ,$593.70 
+99,Bridgetree,BridgeTree,Victra,Victra - BYOD,22234,$79.53 ,$99.41 
+100,Cogwheel Marketing,Cogwheel Marketing,CWM - Aloft New Orleans Downtown,Aloft NOLA Downtown - May 24,107162,$389.37 ,$486.71 
+101,Cogwheel Marketing,Cogwheel Marketing,CWM- Legacy Hotel Green Bay,Legacy Hotel - December 2023 ,0,$0.00 ,$0.00 
+102,Cogwheel Marketing,Cogwheel Marketing,CWM-The Grand Hotel,The Grand Hotel - Nov 2023,0,$0.00 ,$0.00 
+103,Demo Account,OnSpot Demo,Seniorplicity,Tarpon Tower,4,$0.00 ,$0.00 
+104,Digital Pointes,Digital Pointes,Frontier3,Rinke Tech Center,64496,$219.96 ,$274.94 
+105,Digital Pointes,Digital Pointes,Internal DP,RecallTest_Acadia,16916,$23.29 ,$29.11 
+106,Digital Pointes,Digital Pointes,Internal DP,RecallTest_Blazer,14726,$24.91 ,$31.14 
+107,Digital Pointes,Digital Pointes,Internal DP,RecallTest_Traverse,15671,$23.02 ,$28.77 
+108,Digital Pointes,Digital Pointes,Ottaway Communications,Eversafe1_2024,27,$0.01 ,$0.01 
+109,Digital Pointes,Digital Pointes,Ottaway Communications,Eversafe1_2024 Move Only,26915,$52.64 ,$65.79 
+110,Digital Pointes,Digital Pointes,Ottaway Communications,Eversafe1_2024 Retargeting,21797,$47.33 ,$59.15 
+111,Digital Pointes,Digital Pointes,TR Digital,B&W1_2024,12,$0.00 ,$0.00 
+112,Digital Pointes,Digital Pointes,TR Digital,BigGusTractors1_2024,4,$0.00 ,$0.00 
+113,Digital Pointes,Digital Pointes,TR Digital,Clermont1_2024,17,$0.00 ,$0.00 
+114,Digital Pointes,Digital Pointes,TR Digital,Emerich1_2024,8109,$10.44 ,$13.05 
+115,Digital Pointes,Digital Pointes,TR Digital,Flagler1_2024,2,$0.00 ,$0.00 
+116,Digital Pointes,Digital Pointes,TR Digital,Haights1_2024,8,$0.00 ,$0.00 
+117,Digital Pointes,Digital Pointes,TR Digital,JonesMaintenance1_2024,12,$0.00 ,$0.00 
+118,Digital Pointes,Digital Pointes,TR Digital,MikesLawnmowers1_2024,4,$0.00 ,$0.00 
+119,Digital Pointes,Digital Pointes,TR Digital,Oviedo1_2024,13,$0.00 ,$0.00 
+120,Digital Pointes,Digital Pointes,TR Digital,Pasco1_2024,8,$0.00 ,$0.00 
+121,Digital Pointes,Digital Pointes,TR Digital,PrairieAg1_2024,11,$0.00 ,$0.00 
+122,Digital Pointes,Digital Pointes,TR Digital,Pronto1_2024,22,$0.00 ,$0.01 
+123,Digital Pointes,Digital Pointes,TR Digital,RevCut1_2024,16,$0.00 ,$0.01 
+124,Digital Pointes,Digital Pointes,TR Digital,Sedgefield1_2024,8,$0.00 ,$0.00 
+125,Digital Pointes,Digital Pointes,TR Digital,Sloans2_2024,5,$0.00 ,$0.00 
+126,Digital Pointes,Digital Pointes,TR Digital,Sloans3_2024,2705,$3.43 ,$4.28 
+127,Digital Pointes,Digital Pointes,TR Digital,TrailSaw1_2024,8110,$10.45 ,$13.06 
+128,Digital Pointes,Digital Pointes,TR Digital,Umatilla1_2024,2339,$3.46 ,$4.33 
+129,GetFishSlapped,GetFishSlapped,Chen Dental,Chen Dental Geofencing,35290,$60.88 ,$76.08 
+130,Intrinsic Digital,N/A,Bozzuto,Bozzuto Aster,166,$0.06 ,$0.06 
+131,Intrinsic Digital,N/A,Bozzuto,Bozzuto Aster April-May,126145,$254.27 ,$254.27 
+132,Intrinsic Digital,N/A,Bozzuto,Bozzuto City Ridge,138,$0.13 ,$0.13 
+133,Intrinsic Digital,N/A,Bozzuto,Bozzuto City Ridge April-May,91281,$269.43 ,$269.43 
+134,itzontarget,itzontarget,Alicia Jo Rabins & The Camas High School Choir,Alicia Jo Rabins & The Camas High School Choir,60,$0.01 ,$0.01 
+135,itzontarget,itzontarget,Hall of Flame,Hall of Flame,74,$0.02 ,$0.03 
+136,itzontarget,itzontarget,Harry and David,Harry and David,186,$0.03 ,$0.04 
+137,itzontarget,itzontarget,Jewel Basin Dentistry,Jewel Basin Dentistry (February),13,$0.01 ,$0.01 
+138,itzontarget,itzontarget,Jewel Basin Dentistry,Jewel Basin Dentistry (March),45,$0.01 ,$0.01 
+139,itzontarget,itzontarget,Local Acres,Local Acres - April,76,$0.00 ,$0.00 
+140,itzontarget,itzontarget,Local Acres,Local Acres - Feb24,2,$0.00 ,$0.00 
+141,itzontarget,itzontarget,Local Acres,Local Acres - March,117,$0.02 ,$0.03 
+142,itzontarget,itzontarget,Oklahoma State University - Give Orange 2024,Oklahoma State University - Give Orange 2024,24,$0.00 ,$0.00 
+143,itzontarget,itzontarget,OSU-Cascades_Freshmen,OSU-Cascades_Freshmen_HS,125,$0.01 ,$0.01 
+144,itzontarget,itzontarget,OSU-Cascades_Transfers,OSU-Cascades_Transfer_display,4,$0.01 ,$0.01 
+145,itzontarget,itzontarget,OSU-Cascades_Transfers,OSU-Cascades_Transfer_historical,61,$0.00 ,$0.00 
+146,itzontarget,itzontarget,S & S Remodeling,S & S Remodeling,20878,$22.93 ,$28.65 
+147,itzontarget,itzontarget,Saint Gregory Mens Club,Saint Gregory Mens Club_Feb24,1,$0.00 ,$0.00 
+148,itzontarget,itzontarget,Tamarack Dispensary,Tamarack Dispensary_Mar24,5,$0.00 ,$0.00 
+149,itzontarget,itzontarget,Van Adams Jewelers,Van Adams Jewelers,0,$0.00 ,$0.00 
+150,Knorr Marketing,Knorr Marketing,American Factory Direct Furniture - AFD,AFD - 9072 24,349964,$394.30 ,$492.76 
+151,Knorr Marketing,Knorr Marketing,Ashley Home Store Michigan (AHSGR),AHSGR - 9072 24 - DB,99995,$105.75 ,$132.16 
+152,Knorr Marketing,Knorr Marketing,Ashley Home Store Michigan (AHSGR),AHSGR - 9072 24 - DB - APR,26,$0.00 ,$0.00 
+153,Knorr Marketing,Knorr Marketing,Ashley Home Store Michigan (AHSGR),AHSGR - 9072 24 - GR / GV / KZOO - GEO,74420,$99.61 ,$124.48 
+154,Knorr Marketing,Knorr Marketing,Ashley Home Store Michigan (AHSGR),AHSGR - 9072 24 - GR / GV / KZOO - GEO - APR,28,$0.01 ,$0.01 
+155,Knorr Marketing,Knorr Marketing,Ashley Home Store Ohio - AHSOH,AHSOH - 9072 24,193980,$196.41 ,$245.45 
+156,Knorr Marketing,Knorr Marketing,Ashley Home Store Ohio - AHSOH,AHSOH - 9072 24 - April,47,$0.00 ,$0.00 
+157,Knorr Marketing,Knorr Marketing,Callan Furniture,CALL - 9072 24 - May,50008,$55.88 ,$69.83 
+158,Knorr Marketing,Knorr Marketing,Gladhill Furniture,GLAD - 9072 24 - APR - GEO,20,$0.00 ,$0.01 
+159,Knorr Marketing,Knorr Marketing,Gladhill Furniture,GLAD - 9072 24 - DB - APR,51,$0.01 ,$0.01 
+160,Knorr Marketing,Knorr Marketing,Gladhill Furniture,GLAD - 9072 24 - DB - May,49983,$64.86 ,$81.05 
+161,Knorr Marketing,Knorr Marketing,Gladhill Furniture,GLAD - 9072 24 - Predicted Movers / GEO / DEMOS / WEB,99987,$127.92 ,$159.87 
+162,Knorr Marketing,Knorr Marketing,Yuma Furniture,YUMA - 9072 24 - May,19871,$21.86 ,$27.32 
+163,KTBS,KTBS,Kinected Physcial Therapy and Wellness,5473_Kinected Physcial Therapy and Wellness,1,$0.00 ,$0.00 
+164,Madden Media,Azira,Buffalo Bill Center for the West,Buffalo Bill Center for the West CTV,140511,"$2,176.43 ","$2,501.57 "
+165,Madden Media,Azira,DC Boat Show,DC Boat Show,30535,$453.75 ,$521.54 
+166,Madden Media,Azira,Eureka Springs,Eureka Springs,336021,"$4,919.02 ","$5,653.88 "
+167,Madden Media,Azira,Explore St.Louis,Explore St. Louis WEC,104050,$169.20 ,$194.44 
+168,Madden Media,Azira,Explore St.Louis,Explore St.Louis CTV,338590,"$4,136.17 ","$4,754.07 "
+169,Madden Media,Azira,Fort Wayne Indiana,Fort Wayne CTV,88511,"$1,361.27 ","$1,564.64 "
+170,Madden Media,Azira,Gulf Shores Orange Beach,Gulf Shores Orange Beach,177288,$200.48 ,$230.34 
+171,Madden Media,Azira,Hattiesburg Mississippi,Hattiesburg MS Banner,633650,$698.65 ,$802.71 
+172,Madden Media,Azira,Hattiesburg Mississippi,Hattiesburg MS Video,14268,$62.43 ,$71.75 
+173,Madden Media,Azira,Johnson County Wyoming Spring 2024,JoCo Wy Spring 2024,163714,$205.81 ,$236.48 
+174,Madden Media,Azira,"Lumberton, NC","DM-NCLUM-Aziradisplay-New Standard Banners (CPM) Lumberton, NC",317907,$372.19 ,$427.63 
+175,Madden Media,Azira,Taco Villa,Taco Villa - DM-TXTV - aziradisplay - Azira Standard Banners (CPM),230057,$244.57 ,$280.99 
+176,Madden Media,Azira,Visit Central Florida,DM-FLVCF - aziradisplay - Near Standard Banners (CPM) Visit Central FL,151365,$166.25 ,$191.01 
+177,Madden Media,Azira,Visit Cheyenne CTV 2024,Visit Cheyenne CTV 2024,124832,"$1,926.20 ","$2,213.97 "
+178,Madden Media,Azira,Visit Idaho,Idaho Fish and Game,54888,$684.93 ,$787.26 
+179,Madden Media,Azira,Visit Tucson CTV,Visit Tucson Summer_Best Mex Food,156026,"$1,069.05 ","$1,228.72 "
+180,Madden Media,Azira,Visit Vicksburg,Visit Vicksburg Summer 2024,194671,$609.37 ,$700.33 
+181,OnSpot,OnSpotAdmin,Bolt Marketing,American Dream Mall Winter Break 2024 Banner,4,$0.00 ,$0.00 
+182,OnSpot,OnSpotAdmin,Bolt Marketing,Bonded Windows May 2024,77698,$308.33 ,$308.33 
+183,OnSpot,OnSpotAdmin,Bolt Marketing,Childrens Hospital April 2024,10569,$19.76 ,$19.76 
+184,OnSpot,OnSpotAdmin,Bolt Marketing,Childrens Hospital March 2024,138,$0.05 ,$0.05 
+185,OnSpot,OnSpotAdmin,Bolt Marketing,Childrens Hospital May 2024,308723,$745.24 ,$745.24 
+186,OnSpot,OnSpotAdmin,Bolt Marketing,Eternal Hair May 2024,142284,$333.57 ,$333.57 
+187,OnSpot,OnSpotAdmin,Bolt Marketing,Haverford Feb 2024,41,$0.00 ,$0.00 
+188,OnSpot,OnSpotAdmin,Bolt Marketing,Haverford March 2024,73,$0.00 ,$0.00 
+189,OnSpot,OnSpotAdmin,Bolt Marketing,MyMoKafe May 2024,154887,$318.20 ,$318.20 
+190,OnSpot,OnSpotAdmin,Bolt Marketing,NJ Pain & Spine April 2024,127,$0.00 ,$0.00 
+191,OnSpot,OnSpotAdmin,Bolt Marketing,NJ Pain & Spine Feb 2024,64,$0.06 ,$0.06 
+192,OnSpot,OnSpotAdmin,Bolt Marketing,NJ Pain & Spine March 2024,118,$0.04 ,$0.04 
+193,OnSpot,OnSpotAdmin,Bolt Marketing,NJ Pain & Spine May 2024,142439,$304.30 ,$304.30 
+194,OnSpot,OnSpotAdmin,Bolt Marketing,Raesin May 2024,65133,$272.79 ,$272.79 
+195,OnSpot,OnSpotAdmin,Bolt Marketing,Skinni May 2024,141801,$310.45 ,$310.45 
+196,OnSpot,OnSpotAdmin,Bolt Marketing,Tillinghouse April 2024,92,$0.02 ,$0.02 
+197,OnSpot,OnSpotAdmin,Bolt Marketing,Tillinghouse Feb 2024,43,$0.03 ,$0.03 
+198,OnSpot,OnSpotAdmin,Bolt Marketing,Tillinghouse March 2024,81,$0.04 ,$0.04 
+199,OnSpot,OnSpotAdmin,Bolt Marketing,Urban Air April 2024,70,$0.00 ,$0.00 
+200,OnSpot,OnSpotAdmin,Bolt Marketing,Urban Air March 2024,37,$0.04 ,$0.04 
+201,OnSpot,OnSpotAdmin,Bolt Marketing,Urban Air May 2024,77740,$289.88 ,$289.88 
+202,OnSpot,OnSpotAdmin,Bolt Marketing,Vincent Jets April 2024,79,$0.01 ,$0.01 
+203,OnSpot,OnSpotAdmin,Bolt Marketing,Vincent Jets Feb 2024,27,$0.02 ,$0.02 
+204,OnSpot,OnSpotAdmin,Bolt Marketing,Vincent Jets March 2024,108,$0.09 ,$0.09 
+205,OnSpot,OnSpotAdmin,Bolt Marketing,Zeba Shoes April 2024,84,$0.00 ,$0.00 
+206,OnSpot,OnSpotAdmin,Bridgetree,Alive Yoga Studio,173,$0.02 ,$0.02 
+207,OnSpot,OnSpotAdmin,Bridgetree,MD-Baltimore Reisterstown-TBV,41,$0.04 ,$0.04 
+208,OnSpot,OnSpotAdmin,Bridgetree,MD-Nottingham-TBV,42,$0.02 ,$0.02 
+209,OnSpot,OnSpotAdmin,Bridgetree,MI-Taylor-TBV,49,$0.03 ,$0.03 
+210,OnSpot,OnSpotAdmin,Bridgetree,MI-Waterford-TBV,76,$0.05 ,$0.05 
+211,OnSpot,OnSpotAdmin,Bridgetree,PA-Philadelphia Lancaster-TBV,50,$0.07 ,$0.07 
+212,OnSpot,OnSpotAdmin,Bridgetree,PA-Philadelphia Rising-TBV,30,$0.04 ,$0.04 
+213,OnSpot,OnSpotAdmin,Bridgetree,TX-Grand Prairie-TBV,33,$0.02 ,$0.02 
+214,OnSpot,OnSpotAdmin,Bridgetree,TX-Richland Hills-TBV,41,$0.05 ,$0.05 
+215,OnSpot,OnSpotAdmin,Bridgetree,TX-San Antonio Potranco-TBV,33,$0.04 ,$0.04 
+216,OnSpot,OnSpotAdmin,Bridgetree,TX-San Antonio Walzem-TBV,41,$0.04 ,$0.04 
+217,OnSpot,OnSpotAdmin,Colvita,Inn at Riverwalk March-May 2024,74596,$239.52 ,$239.52 
+218,OnSpot,OnSpotAdmin,Contravent,Aquarium Otter Naming 2024 Banners,233612,$452.41 ,$452.41 
+219,OnSpot,OnSpotAdmin,Contravent,Aquarium Otter Naming 2024 Interstitial,138481,$766.63 ,$766.63 
+220,OnSpot,OnSpotAdmin,Contravent,Fort Desolation 2024 Video,0,$0.00 ,$0.00 
+221,OnSpot,OnSpotAdmin,Contravent,Fort Desolation Display May 2024,187518,$910.23 ,$910.23 
+222,OnSpot,OnSpotAdmin,CULTA,CULTA BALTIMORE Q2 2024,208263,$277.76 ,$277.76 
+223,OnSpot,OnSpotAdmin,CULTA,Culta Federal Hill Dec Jan 2023 24 - Baltimore,3,$0.00 ,$0.00 
+224,OnSpot,OnSpotAdmin,CULTA,CULTA FREDERICK Q2 2024,185294,$252.40 ,$252.40 
+225,OnSpot,OnSpotAdmin,CULTA,CULTA RETARGETING Q2 2024,209369,$582.05 ,$582.05 
+226,OnSpot,OnSpotAdmin,DMG,Capital Credit Union Q1 2024,63,$0.05 ,$0.05 
+227,OnSpot,OnSpotAdmin,DMG,WTB April 2024,47,$0.00 ,$0.00 
+228,OnSpot,OnSpotAdmin,DMG,WTB March 2024,160,$0.10 ,$0.10 
+229,OnSpot,OnSpotAdmin,Infinite Agency,Infinite Agency - Smoothie King - Banners,457,$0.09 ,$0.09 
+230,OnSpot,OnSpotAdmin,Infinite Agency,Navarro College Spring 2024,295408,"$1,402.34 ","$1,402.34 "
+231,OnSpot,OnSpotAdmin,Intrinsic Digital,Bozzuto Aster,7,$0.00 ,$0.00 
+232,OnSpot,OnSpotAdmin,Intrinsic Digital,Bozzuto City Ridge,2,$0.00 ,$0.00 
+233,OnSpot,OnSpotAdmin,JamLoop,"Peter Piper Jan 2024	",3,$0.00 ,$0.00 
+234,OnSpot,OnSpotAdmin,Loud & Live,Inter Miami Q1 2024,16,$0.00 ,$0.00 
+235,OnSpot,OnSpotAdmin,Mahk Advertising ,Big O Tire Q4 Campaign November 2023,0,$0.00 ,$0.00 
+236,OnSpot,OnSpotAdmin,Muzit,Muzit - Let My People Go (March-April) 2024,94,$0.09 ,$0.09 
+237,OnSpot,OnSpotAdmin,Muzit,Muzit - Political Documentary - Political Targeting,194,$0.07 ,$0.07 
+238,OnSpot,OnSpotAdmin,Muzit,Muzit - Political Documentary - Provided Maids,130,$0.02 ,$0.02 
+239,OnSpot,OnSpotAdmin,Muzit,Muzit -Toni Braxton,21,$0.04 ,$0.04 
+240,OnSpot,OnSpotAdmin,OnSpot,2024 - Evergreen Campaign - February,8,$0.00 ,$0.00 
+241,OnSpot,OnSpotAdmin,OnSpot,2024 - Evergreen Campaign - March,65,$0.04 ,$0.04 
+242,OnSpot,OnSpotAdmin,OnSpot,April Evergreen Campaign 2024,37,$0.02 ,$0.02 
+243,OnSpot,OnSpotAdmin,OnSpot,May Evergreen Campaign 2024,118113,$250.02 ,$250.02 
+244,OnSpot,OnSpotAdmin,Regency,Blakeney -February/March Ads 2024,54,$0.03 ,$0.03 
+245,OnSpot,OnSpotAdmin,Regency,Blakeney April Spring into Savings 2024,44,$0.01 ,$0.01 
+246,OnSpot,OnSpotAdmin,Regency,Blakeney May BeFit 2024,102727,$203.29 ,$203.29 
+247,OnSpot,OnSpotAdmin,Regency,Blakeney Mothers Day 2024,102982,$208.46 ,$208.46 
+248,OnSpot,OnSpotAdmin,Regency,Blakeney Spring Fling Event 2024,95,$0.05 ,$0.05 
+249,OnSpot,OnSpotAdmin,Regency,Corbin's Corner -Feb/March - Dine & Delight 2024,110,$0.09 ,$0.09 
+250,OnSpot,OnSpotAdmin,Regency,Corbin's Corner April Ads 2024,45,$0.03 ,$0.03 
+251,OnSpot,OnSpotAdmin,Regency,Foundational Strategy - SunVet B2B 2024 Banner,71,$0.07 ,$0.07 
+252,OnSpot,OnSpotAdmin,Regency,Grand Ridge Plaza - February - Let the Good Times Roll 2024,3,$0.00 ,$0.00 
+253,OnSpot,OnSpotAdmin,Regency,Grand Ridge Plaza - March - Spring into Savings,95,$0.06 ,$0.06 
+254,OnSpot,OnSpotAdmin,Regency,Grand Ridge Plaza April Mother's Day Rock Tix 2024,49,$0.01 ,$0.01 
+255,OnSpot,OnSpotAdmin,Regency,Longmeadow Shops April 2024,54,$0.01 ,$0.01 
+256,OnSpot,OnSpotAdmin,Regency,Market at Springwoods - February - Hearts or Helmets 2024,3,$0.00 ,$0.00 
+257,OnSpot,OnSpotAdmin,Regency,Market at Springwoods - February - Let the Good Times Roll 2024,2,$0.00 ,$0.00 
+258,OnSpot,OnSpotAdmin,Regency,Market at Springwoods March Spring Into Savings 2024,87,$0.04 ,$0.04 
+259,OnSpot,OnSpotAdmin,Regency,Market at Springwoods Mother's Day 2024,52442,$100.85 ,$100.85 
+260,OnSpot,OnSpotAdmin,Regency,Mellody Farm - February - Helmets or Hearts 2024,3,$0.00 ,$0.00 
+261,OnSpot,OnSpotAdmin,Regency,Mellody Farm - February - Let the Good Times Roll 2024,2,$0.00 ,$0.00 
+262,OnSpot,OnSpotAdmin,Regency,Mellody Farm - March - Spring into Savings 2024,92,$0.05 ,$0.05 
+263,OnSpot,OnSpotAdmin,Regency,Mellody Farm May Ready to Harvest Experience 2024,103567,$189.35 ,$189.35 
+264,OnSpot,OnSpotAdmin,Regency,Mellody Farm Mom Unique 2024,77517,$161.67 ,$161.67 
+265,OnSpot,OnSpotAdmin,Regency,Persimmon Place - March Health and Beauty 2024,112,$0.06 ,$0.06 
+266,OnSpot,OnSpotAdmin,Regency,Persimmon Place February Dining 2024,3,$0.00 ,$0.00 
+267,OnSpot,OnSpotAdmin,Regency,Persimmon Place Mother's Day 2024,103724,$212.29 ,$212.29 
+268,OnSpot,OnSpotAdmin,Regency,Plaza Escuela - Feb - Helmets or Hearts 2024,3,$0.00 ,$0.00 
+269,OnSpot,OnSpotAdmin,Regency,Plaza Escuela - Feb - Let the Good Times Roll 2024,7,$0.01 ,$0.01 
+270,OnSpot,OnSpotAdmin,Regency,Plaza Escuela March Spring into Savings 2024,68,$0.02 ,$0.02 
+271,OnSpot,OnSpotAdmin,Regency,Plaza Escuela Mothers Day 2024,53736,$104.50 ,$104.50 
+272,OnSpot,OnSpotAdmin,Regency,Ridgewood - Feb/March Dining 2024,92,$0.08 ,$0.08 
+273,OnSpot,OnSpotAdmin,Regency,Southbury Green - Feb/March Ads 2024,43,$0.02 ,$0.02 
+274,OnSpot,OnSpotAdmin,Regency,Southbury Green April/May Ads Spring into Savings 2024,80780,$166.66 ,$166.66 
+275,OnSpot,OnSpotAdmin,Regency,Southbury Green MarApril Dining Ads 2024,92,$0.02 ,$0.02 
+276,OnSpot,OnSpotAdmin,Regency,The Crossing Clarendon -A/B Pet & Grocery 2024,11,$0.01 ,$0.01 
+277,OnSpot,OnSpotAdmin,Regency,The Crossing Clarendon AB Home & Fitness 2024,124,$0.06 ,$0.06 
+278,OnSpot,OnSpotAdmin,Regency,The Crossing Clarendon April Fido Fest 2024,19669,$38.76 ,$38.76 
+279,OnSpot,OnSpotAdmin,Regency,The Crossing Clarendon May Dining 2024,104989,$184.74 ,$184.74 
+280,OnSpot,OnSpotAdmin,Regency,The Crossing Clarendon Mothers Day 2024,105395,$211.59 ,$211.59 
+281,OnSpot,OnSpotAdmin,Regency,The Field at Commonwealth -Feb /March Dining Ads 2024,40,$0.03 ,$0.03 
+282,OnSpot,OnSpotAdmin,Regency,The Gallery at Westbury - Feb/March Dining Ads 2024,46,$0.03 ,$0.03 
+283,OnSpot,OnSpotAdmin,Regency,The Gallery at Westbury April/May Spring into Savings 2024,52759,$108.90 ,$108.90 
+284,OnSpot,OnSpotAdmin,Regency,The Gallery at Westbury FebMarch Lunch Dinner Ads 2024,40,$0.03 ,$0.03 
+285,OnSpot,OnSpotAdmin,Regency,The Pruneyard Mothers Day 2024,102947,$211.60 ,$211.60 
+286,OnSpot,OnSpotAdmin,Regency,The Village District - Feb - Be Mine and Dine 2024,6,$0.01 ,$0.01 
+287,OnSpot,OnSpotAdmin,Regency,The Village District March 75th Anniversary Teaser 2024,117,$0.06 ,$0.06 
+288,OnSpot,OnSpotAdmin,Regency,The Village District Mothers Day 2024,154297,$315.61 ,$315.61 
+289,OnSpot,OnSpotAdmin,Regency,Village at La Floresta - February - Helmets or Hearts 2024,3,$0.00 ,$0.00 
+290,OnSpot,OnSpotAdmin,Regency,Village at La Floresta - February - Let the Good Times Roll 2024,3,$0.01 ,$0.01 
+291,OnSpot,OnSpotAdmin,Regency,Village at La Floresta Embrace Brea Event 2024,12,$0.00 ,$0.00 
+292,OnSpot,OnSpotAdmin,Regency,Village at La Floresta March Spring into Savings 2024,122,$0.07 ,$0.07 
+293,OnSpot,OnSpotAdmin,Regency,Village at La Floresta Mothers Day 2024,79877,$164.91 ,$164.91 
+294,OnSpot,OnSpotAdmin,Regency,Walker Center REI Now Open 2024,80071,$169.34 ,$169.34 
+295,OnSpot,OnSpotAdmin,Regency,Westbard Square - Now Open - Barber and Eye 2024,26,$0.02 ,$0.02 
+296,OnSpot,OnSpotAdmin,Regency,Westbard Square - Now Open - Starbucks and Giant 2024,75,$0.07 ,$0.07 
+297,OnSpot,OnSpotAdmin,Regency,Westbard Square April 2024,50,$0.03 ,$0.03 
+298,OnSpot,OnSpotAdmin,Regency,Westbard Square May BBQ 2024,53733,$110.93 ,$110.93 
+299,OnSpot,OnSpotAdmin,Regency,Westbard Square May Generic 2024,53691,$97.76 ,$97.76 
+300,OnSpot,OnSpotAdmin,Regency,Westlake Plaza - February - Let the Good Times Roll 2024,4,$0.00 ,$0.00 
+301,OnSpot,OnSpotAdmin,Regency,Westlake Plaza -March - Spring into Savings 2024,83,$0.05 ,$0.05 
+302,OnSpot,OnSpotAdmin,Regency,Westlake Plaza Mothers Day 2024,52007,$106.61 ,$106.61 
+303,OnSpot,OnSpotAdmin,Regency,Willows Shopping Center -February - Hearts or Helmets 2024,3,$0.00 ,$0.00 
+304,OnSpot,OnSpotAdmin,Regency,Willows Shopping Center -February - Let the Good Times Roll 2024,3,$0.00 ,$0.00 
+305,OnSpot,OnSpotAdmin,Regency,Willows Shopping Center Mothers Day 2024,72808,$146.96 ,$146.96 
+306,OnSpot,OnSpotAdmin,Regency,Willows Shopping Center Spring into Savings at Willows 2024,115,$0.07 ,$0.07 
+307,OnSpot,OnSpotAdmin,Saslow,Saslow's Mothers Day 2024 Banners,179168,$394.71 ,$394.71 
+308,OnSpot,OnSpotAdmin,Saslow,Saslow's Mothers Day 2024 Interstitials,21672,$129.63 ,$129.63 
+309,OnSpot,OnSpotAdmin,Stone Ward Advertising,Slim Chickens Promo 3 Tier 1 4-22 to 4-28,60,$0.00 ,$0.00 
+310,OnSpot,OnSpotAdmin,Stone Ward Advertising,Slim Chickens Promo 3 Tier 1 4-29 to 5-5,570924,"$1,546.18 ","$1,546.18 "
+311,OnSpot,OnSpotAdmin,Stone Ward Advertising,Slim Chickens Promo 3 Tier 1 5-6 to 5-26,979713,"$2,889.33 ","$2,889.33 "
+312,OnSpot,OnSpotAdmin,Stone Ward Advertising,Slim Chickens Promo 3 Tier 2 4-22 to 4-28,81,$0.00 ,$0.00 
+313,OnSpot,OnSpotAdmin,Stone Ward Advertising,Slim Chickens Promo 3 Tier 2 4-29 to 5-5,839517,"$2,351.11 ","$2,351.11 "
+314,OnSpot,OnSpotAdmin,Stone Ward Advertising,Slim Chickens Promo 3 Tier 2 5-6 to 5-26,1399791,"$4,053.90 ","$4,053.90 "
+315,OnSpot,OnSpotAdmin,Stone Ward Advertising,Slim Chickens Promo 3 Tier 3 4-22 to 4-28,151,$0.01 ,$0.01 
+316,OnSpot,OnSpotAdmin,Stone Ward Advertising,Slim Chickens Promo 3 Tier 3 4-29 to 5-5,983260,"$3,078.65 ","$3,078.65 "
+317,OnSpot,OnSpotAdmin,Stone Ward Advertising,Slim Chickens Promo 3 Tier 3 5-6 to 5-19,1618273,"$4,548.68 ","$4,548.68 "
+318,OnSpot,OnSpotAdmin,Stone Ward Advertising,Slim Chickens Q1 24 Banner Tier 1 Flight 1,27,$0.00 ,$0.00 
+319,OnSpot,OnSpotAdmin,Stone Ward Advertising,Slim Chickens Q1 24 Banner Tier 1 Flight 2 Birthday Jar,39,$0.00 ,$0.00 
+320,OnSpot,OnSpotAdmin,Stone Ward Advertising,Slim Chickens Q1 24 Banner Tier 1 Flight 2 Wings/Red Velvet,92,$0.00 ,$0.00 
+321,OnSpot,OnSpotAdmin,Stone Ward Advertising,Slim Chickens Q1 24 Banner Tier 1 Flight 3 Birthday Jar,35,$0.00 ,$0.00 
+322,OnSpot,OnSpotAdmin,Stone Ward Advertising,Slim Chickens Q1 24 Banner Tier 1 Flight 3 Wings/Red Velvet,92,$0.00 ,$0.00 
+323,OnSpot,OnSpotAdmin,Stone Ward Advertising,Slim Chickens Q1 24 Banner Tier 2 Flight 1,32,$0.00 ,$0.00 
+324,OnSpot,OnSpotAdmin,Stone Ward Advertising,Slim Chickens Q1 24 Banner Tier 2 Flight 2 Birthday Jar,40,$0.00 ,$0.00 
+325,OnSpot,OnSpotAdmin,Stone Ward Advertising,Slim Chickens Q1 24 Banner Tier 2 Flight 2 Wings/Red Velvet,50,$0.00 ,$0.00 
+326,OnSpot,OnSpotAdmin,Stone Ward Advertising,Slim Chickens Q1 24 Banner Tier 2 Flight 3 Birthday Jar,43,$0.00 ,$0.00 
+327,OnSpot,OnSpotAdmin,Stone Ward Advertising,Slim Chickens Q1 24 Banner Tier 2 Flight 3 Wings/Red Velvet,75,$0.00 ,$0.00 
+328,OnSpot,OnSpotAdmin,Stone Ward Advertising,Slim Chickens Q1 24 Banner Tier 3 Flight 1,25,$0.00 ,$0.00 
+329,OnSpot,OnSpotAdmin,Stone Ward Advertising,Slim Chickens Q1 24 Banner Tier 3 Flight 2 Birthday Jar,41,$0.00 ,$0.00 
+330,OnSpot,OnSpotAdmin,Stone Ward Advertising,Slim Chickens Q1 24 Banner Tier 3 Flight 2 Wings/Red Velvet,109,$0.00 ,$0.00 
+331,OnSpot,OnSpotAdmin,Stone Ward Advertising,Slim Chickens Q1 24 Banner Tier 3 Flight 3 Birthday Jar,56,$0.00 ,$0.00 
+332,OnSpot,OnSpotAdmin,Stone Ward Advertising,Slim Chickens Q1 24 Banner Tier 3 Flight 3 Wings/Red Velvet,109,$0.00 ,$0.00 
+333,OnSpot,OnSpotAdmin,Stone Ward Advertising,Sports Clips Q2-3 2024,144762,$419.95 ,$419.95 
+334,OnSpot,OnSpotAdmin,Weare,Fun Plex Summer 2024,100100,$212.51 ,$212.51 
+335,Predictive Data Labs,Azira,St. Anthony's Hotel,FY24 Saint Anthony Hotel Co-Op,1215092,"$1,709.29 ","$1,964.12 "
+336,Predictive Data Labs,Azira,St. Anthony's Hotel,St. Anthony's Hotel 2024,219970,$329.17 ,$378.25 
+337,Predictive Data Labs,Azira,Visit Central Florida,VCF_New Haven,82424,$101.48 ,$116.60 
+338,Predictive Data Labs,Azira,Visit Central Florida,Visit Central Florida FY24,628156,"$2,613.12 ","$3,003.28 "
+339,Predictive Data Labs,Azira,Visit San Antonio,Visit San Antonio FY24,11752641,"$56,802.88 ","$65,285.08 "
+340,Predictive Data Labs,Azira,Visit San Antonio,VSA - Summer Needs FY2024,1795182,"$9,645.09 ","$11,085.38 "
+341,Q1 Media,Azira,Baltimore Ravens,Big Game Travel - Baltimore Ravens,1640,$1.85 ,$2.13 
+342,Q1 Media,Azira,Bristol Community College,Bristol Community College Fall Campaign 2024,58381,$90.19 ,$103.64 
+343,Q1 Media,Azira,First National Bank,FNB - Parking Garages Campaign,8698,$10.13 ,$11.63 
+344,Q1 Media,Azira,Montgomery County,Montgomery County Strawberry Festival 2024,112310,$118.02 ,$135.59 
+345,Q1 Media,Azira,Odawa Casino,Odawa Casino Mobile Device ID/IP Matching 2024,40039,$41.11 ,$47.23 
+346,Q1 Media,Azira,Owen County,Owen County - May-Sep 2024,27792,$28.27 ,$32.48 
+347,Q1 Media,Azira,Pennsylvania Department of Transportation,PennDOT - Safety Campaigns 2024,85792,$267.82 ,$307.78 
+348,Q1 Media,Azira,Q1 test,Test Campaign,19,$0.00 ,$0.00 
+349,REDROC,REDROC,RUDYS,2024 Rudy's El Paso,29749,$49.34 ,$111.11 
+350,REDROC,REDROC,RUDYS,2024 Rudy's Gilbert,29741,$50.05 ,$112.45 
+351,REDROC,REDROC,RUDYS,2024 Rudy's Panama City Beach,29732,$61.20 ,$144.28 
+352,REDROC,REDROC,RUDYS,2024 Rudy's Tucson,29750,$54.91 ,$126.58 
+353,REDROC,REDROC,Tony C Beer Garden,2024 TCBG RR competitor Conquesting,14327,$27.63 ,$62.72 
+354,REDROC,REDROC,Twin Liquors,2024 - TWL - Weddings,6223,$19.25 ,$45.81 
