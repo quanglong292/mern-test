@@ -6,10 +6,10 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon --inspect ./app.js",
-    "test:local": "node src/lambda/xlsx/index.js --organizations 'BETA Summit Group International, acs' --tabs 'IP to MAID Activity, Web Pixel Activity' --inputFileKey 's3://ost-project-testing/input/MonthlyUsageReport_April-2024.xlsx' --outputPath 's3://ost-project-testing/output/'",
-    "test:local:2": "node src/lambda/xlsx/index.js --organizations '' --tabs '' --inputFileKey 's3://ost-project-testing/input/MonthlyUsageReport_April-2024.xlsx' --outputPath 's3://ost-project-testing/output/'",
-    "test:local:3": "node src/lambda/xlsx/index.js --organizations '' --tabs 'IP to MAID Activity, Web Pixel Activity' --inputFileKey 's3://osd-digital-avenues/input/MonthlyUsageReport_April-2024.xlsx' --outputPath 's3://osd-digital-avenues/output/'  --dspInputFile 's3://osd-digital-avenues/input/dsp_usage_may2024_20240603.csv'",
-    "test:local:4": "node src/lambda/xlsx/index.js --organizations 'acs' --tabs '' --inputFileKey 'MonthlyUsageReport_April-2024.xlsx' --outputPath './output/'  --dspInputFile 'dsp_usage_may2024_20240603.csv'"
+    "test:local": "node src/lambda/xlsx/index.js --organizations 'BETA Summit Group International, acs' --tabs 'IP to MAID Activity, Web Pixel Activity' --inputFilePath 's3://ost-project-testing/input/MonthlyUsageReport_April-2024.xlsx' --outputPath 's3://ost-project-testing/output/'",
+    "test:local:2": "node src/lambda/xlsx/index.js --organizations '' --tabs '' --inputFilePath 's3://ost-project-testing/input/MonthlyUsageReport_April-2024.xlsx' --outputPath 's3://ost-project-testing/output/'",
+    "test:local:3": "node src/lambda/xlsx/index.js --organizations 'acs' --tabs 'IP to MAID Activity, Web Pixel Activity' --inputFilePath 's3://osd-digital-avenues/input/MonthlyUsageReport_April-2024.xlsx' --outputPath 's3://osd-digital-avenues/output/'  --dspInputFile 's3://osd-digital-avenues/input/dsp_usage_may2024_20240603.csv'",
+    "test:local:4": "node src/lambda/xlsx/index.js --organizations 'acs' --tabs '' --inputFilePath 'MonthlyUsageReport_April-2024.xlsx' --outputPath './output/'  --dspInputFile 'dsp_usage_may2024_20240603.csv'"
   },
   "keywords": [],
   "author": "",

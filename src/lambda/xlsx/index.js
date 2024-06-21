@@ -1,19 +1,25 @@
 const XLSX = require("xlsx-js-style");
-const AWS = require("aws-sdk");
+const {
+  S3Client,
+  PutObjectCommand,
+  GetObjectCommand,
+} = require("@aws-sdk/client-s3");
+const { defaultProvider } = require("@aws-sdk/credential-provider-node");
 const path = require("node:path");
 const fs = require("fs");
 
-// --- CLI VERSION ---
-
 const { utils } = XLSX;
-const userDir = process.cwd();
+const cwd = process.cwd();
 
-const parseInputFile = async (body, S3) => {
+const parseInputFile = async (body, s3Instance) => {
   const isS3Enabled = isS3(body?.inputFilePath);
+  const isS3OutputEnabled = isS3(body?.outputPath)
   const inputFile = s3PathParser(body?.inputFilePath);
   const dspInputFile = s3PathParser(body?.dspInputFile);
   const isDSPInclude = Boolean(body?.dspInputFile);
-  const outputPath = s3PathParser(body?.outputPath, "output");
+  const outputPath = s3PathParser(body?.outputPath);
+
+  console.log("paths -->", { inputFile, dspInputFile, outputPath });
 
   if (!fs.existsSync(outputPath.path) && !isS3Enabled) {
     fs.mkdirSync(outputPath.path, { recursive: true });
@@ -22,7 +28,7 @@ const parseInputFile = async (body, S3) => {
   let organizations = body.organizations?.map((i) => i.toLowerCase());
 
   // Read the file
-  let { took_sheets, orgs } = await readInputFile(S3, {
+  let { took_sheets, orgs } = await readInputFile(s3Instance, {
     ...body,
     Bucket: inputFile.Bucket,
     Key: inputFile.Key,
@@ -31,7 +37,7 @@ const parseInputFile = async (body, S3) => {
   if (organizations === undefined || !organizations?.length)
     organizations = orgs ?? [];
 
-  const psdSheet = await readCSVFile(S3, {
+  const psdSheet = await readCSVFile(s3Instance, {
     ...body,
     organizations,
     Bucket: dspInputFile.Bucket,
@@ -40,11 +46,8 @@ const parseInputFile = async (body, S3) => {
 
   if (isDSPInclude) took_sheets = [psdSheet, ...took_sheets];
 
-  let count = 0;
-
   // Write the output file
   for (const org of organizations) {
-    // if (count === 2) return;
     const currentDate = new Date();
     const fileName = `MonthlyUsageReport_${currentDate.getMonth()}-${currentDate.getFullYear()}-${org?.toUpperCase()}-${new Date().getTime()}.xlsx`;
 
@@ -97,19 +100,18 @@ const parseInputFile = async (body, S3) => {
     const wb = XLSX.utils.book_new();
     XLSX.utils.book_append_sheet(wb, ws, "Sheet1");
 
-    if (isS3Enabled) {
-      // Write file to S3
+    if (isS3OutputEnabled) {
+      // Write file to s3Instance
       const WRITE_S3_PARAMS = {
         Bucket: outputPath.Bucket,
         Key: outputPath.Key + fileName,
         Body: XLSX.write(wb, { bookType: "xlsx", type: "buffer" }),
       };
-      await S3.upload(WRITE_S3_PARAMS).promise();
+      await s3Instance.send(new PutObjectCommand(WRITE_S3_PARAMS)); // V3
     } else {
-      XLSX.writeFile(wb, path.resolve(userDir, outputPath.path, fileName));
+      XLSX.writeFile(wb, path.resolve(cwd, outputPath.path, fileName));
     }
     console.log("Generated:", org);
-    // count++;
   }
 
   return {
@@ -127,15 +129,12 @@ async function readInputFile(
   { tabs, organizations, inputFilePath, Bucket, Key }
 ) {
   try {
-    // Get the file
     const isS3Enabled = isS3(inputFilePath);
 
-    
     const file = isS3Enabled
-    ? await S3.getObject({ Bucket, Key }).promise()
-    : path.resolve(userDir, inputFilePath);
-    
-    console.log("readInputFile -->", file, userDir, path.resolve(userDir, inputFilePath));
+      ? await S3.send(new GetObjectCommand({ Bucket, Key }))
+      : path.resolve(cwd, inputFilePath);
+
     let workbook = null;
     try {
       workbook = isS3Enabled
@@ -183,8 +182,8 @@ async function readCSVFile(S3, { organizations, dspInputFile, Bucket, Key }) {
     const isS3Enabled = isS3(dspInputFile);
 
     const file = isS3Enabled
-      ? await S3.getObject({ Bucket, Key }).promise()
-      : path.resolve(userDir, dspInputFile);
+      ? await S3.send(new GetObjectCommand({ Bucket, Key }))
+      : path.resolve(cwd, dspInputFile);
 
     let workbook = null;
 
@@ -220,17 +219,18 @@ async function readCSVFile(S3, { organizations, dspInputFile, Bucket, Key }) {
 }
 
 function isS3(path) {
-  return path?.includes("s3://");
+  return path?.startsWith("s3://");
 }
 
-function s3PathParser(inputPath, type) {
+function s3PathParser(inputPath) {
+  console.log("s3PathParser -->", inputPath);
   if (isS3(inputPath)) {
     const [_, __, Bucket, ...rawKeys] = inputPath.split("/");
     const Key = rawKeys.join("/");
 
     return { Bucket, Key, path: inputPath };
   }
-  return { path: path.resolve(userDir, inputPath) };
+  return { path: path.resolve(cwd, inputPath) };
 }
 
 function parseArguments() {
@@ -267,13 +267,11 @@ function generateColWidth(rows) {
 }
 
 function parseBody(event) {
-  let body = event?.body || parseArguments();
+  const body = event?.body || parseArguments();
 
-  if (!body?.inputFilePath) {
+  if (!body?.inputFilePath || !body?.outputPath) {
     throw new Error("Missing required arguments!");
   }
-
-  if (!body?.outputPath) body.outputPath = "output/";
 
   if (body.tabs) {
     const newTabs =
@@ -302,11 +300,9 @@ function parseBody(event) {
 const handler = async (event) => {
   try {
     const body = parseBody(event);
-    // const body = event;
-    const s3Instance = new AWS.S3({
-      accessKeyId: process.env.S3_ACCESS_KEY,
-      secretAccessKey: process.env.S3_SECRET_KEY,
+    const s3Instance = new S3Client({
       region: process.env.REGION,
+      credentials: defaultProvider(),
     });
     console.log("Event body:", body);
     await parseInputFile(body, s3Instance);
@@ -316,24 +312,8 @@ const handler = async (event) => {
   }
 };
 
-console.log("AWS_EXECUTION_ENV -->", process.env.AWS_EXECUTION_ENV);
-
 if (!process.env.AWS_EXECUTION_ENV?.includes("Lambda")) {
   handler();
-  // handler({
-  //   body: {
-  //     organizations: ["acs"],
-  //     tabs: ["Summary", "Geoframe Orders"],
-  //     dspInputFile:
-  //       "s3://ost-project-testing/input/dsp_usage_may2024_20240603.csv",
-  //     inputFilePath:
-  //       "s3://ost-project-testing/input/MonthlyUsageReport_April-2024.xlsx",
-  //     outputPath: "s3://ost-project-testing/output/",
-  //     // dspInputFile: "dsp_usage_may2024_20240603.csv",
-  //     // inputFilePath: "MonthlyUsageReport_April-2024.xlsx",
-  //     // outputPath: "output/",
-  //   },
-  // });
 }
 
 exports.handler = handler;
